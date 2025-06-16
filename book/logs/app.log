@@ -1,0 +1,11 @@
+22:47:43.060 [main] INFO  sqltiming - insert into tbl_member(id, pw, email, name, tel) values ('tac', '$2a$10$ViZJox064Yafbu1Hb89VNuxhJLe95wAyGIIo/IDEOO3UBfIMSIomS', 'tsc', '价己霖', '010-47012571')
+ {executed in 5 msec}
+22:54:26.182 [main] INFO  sqltiming - select * from tbl_member where id = 'tac'
+ {executed in 5 msec}
+22:54:26.215 [main] INFO  resultsettable - 
+|----|----|-------------------------------------------------------------|-----|-------------|------|--------------------|
+|mno |id  |pw                                                           |name |tel          |email |regdate             |
+|----|----|-------------------------------------------------------------|-----|-------------|------|--------------------|
+|7   |tac |$2a$10$ViZJox064Yafbu1Hb89VNuxhJLe95wAyGIIo/IDEOO3UBfIMSIomS |价己霖  |010-47012571 |tsc   |2025-06-16 22:47:42 |
+|----|----|-------------------------------------------------------------|-----|-------------|------|--------------------|
+
